@@ -2,6 +2,7 @@ class User < ActiveRecord::Base
   has_many :assignments
   has_many :projects, through: :assignments
   # has_one :task, through: :projects
+  # has_many :tasks
   # Is line 4 doable?
 
   # Thought stream:
